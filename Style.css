@@ -233,6 +233,28 @@ display:block;
   
 }
 
+.Proj3, .Proj4{
+width:420px;
+border-radius:15px;
+overflow:hidden;
+}
+
+.Proj3 img, .Proj4 img{
+width:100%;
+display:block;
+}
+
+.Proj1, .Proj2, .Proj3, .Proj4{
+width:420px;
+border-radius:15px;
+overflow:hidden;
+}
+
+.Proj1 img, .Proj2 img, .Proj3 img, .Proj4 img{
+width:100%;
+display:block;
+}
+
 /* ACHIEVEMENTS */
 
 #achievements{
