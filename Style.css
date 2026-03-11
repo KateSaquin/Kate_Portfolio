@@ -90,7 +90,7 @@ font-size:22px;
 font-family:'Courier New', Courier, monospace;
 }
 
-/* About */
+/* ABOUT */
 
 #about{
 padding:80px 0;
@@ -183,7 +183,7 @@ display:none;
 .contents ul li{
 list-style:none;
 margin:10px 0;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-family:'Trebuchet MS', Arial;
 }
 
 .contents ul li span{
@@ -211,37 +211,9 @@ margin-bottom:40px;
 .projects-grid{
 display:flex;
 gap:40px;
-margin-left:15%;
+justify-content:center;
 flex-wrap:wrap;
-}
-
-.Proj1, .Proj2{
-width:420px;
-border-radius:15px;
-overflow:hidden;
-}
-
-.Proj1 img, .Proj2 img{
-width:100%;
-display:block;
-}
-
-
-.prod h2 {
-  font-size: 50px;
-  margin-left: 89%;
-  
-}
-
-.Proj3, .Proj4{
-width:420px;
-border-radius:15px;
-overflow:hidden;
-}
-
-.Proj3 img, .Proj4 img{
-width:100%;
-display:block;
+margin-bottom:20px;
 }
 
 .Proj1, .Proj2, .Proj3, .Proj4{
@@ -255,44 +227,51 @@ width:100%;
 display:block;
 }
 
+.prod h2{
+font-size:50px;
+text-align:center;
+margin-top:20px;
+margin-bottom:50px;
+font-family:'Courier New', Courier, monospace;
+}
+
 /* ACHIEVEMENTS */
 
 #achievements{
-  padding:80px 0;
+padding:80px 0;
 }
 
 .achievement-title{
-  font-family:'Courier New', Courier, monospace;
-  font-size:55px;
-  margin-left:40px;
-  margin-bottom:40px;
+font-family:'Courier New', Courier, monospace;
+font-size:55px;
+margin-left:40px;
+margin-bottom:40px;
 }
 
 .achievement-grid{
-  display:flex;
-  gap:40px;
-  margin-top: -20px;
-  margin-left:40px;
-  flex-wrap:wrap;
+display:flex;
+gap:40px;
+margin-left:40px;
+flex-wrap:wrap;
 }
 
 .ach-card{
-  width:420px;
+width:420px;
 }
 
 .ach-image{
-  border-radius:15px;
-  overflow:hidden;
+border-radius:15px;
+overflow:hidden;
 }
 
 .ach-image img{
-  width:100%;
-  display:block;
+width:100%;
+display:block;
 }
 
 .ach-caption{
-  margin-top:15px;
-  font-size:20px;
-  font-family:'Courier New', Courier, monospace;
-  text-align:center;
+margin-top:15px;
+font-size:20px;
+font-family:'Courier New', Courier, monospace;
+text-align:center;
 }
