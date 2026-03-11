@@ -198,61 +198,36 @@ display:block;
 /* PROJECTS */
 
 #projects{
-padding:80px 0;
+  padding:80px 0;
 }
 
 .projects-title{
-font-family:'Courier New', Courier, monospace;
-font-size:55px;
-margin-left:40px;
-margin-bottom:40px;
+  font-family:'Courier New', Courier, monospace;
+  font-size:55px;
+  margin-left:40px;
+  margin-bottom:40px;
 }
 
-.projects-grid{
-display:flex;
-gap:40px;
-margin-left:15%;
-flex-wrap:wrap;
+.project-group{
+  text-align:center;
+  margin-bottom:80px;
 }
 
-.Proj1, .Proj2{
-width:420px;
-border-radius:15px;
-overflow:hidden;
+.project-images{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  margin-bottom:20px;
 }
 
-.Proj1 img, .Proj2 img{
-width:100%;
-display:block;
+.project-images img{
+  width:420px;
+  border-radius:15px;
+  display:block;
 }
 
-
-.prod h2 {
-  font-size: 50px;
-  margin-left: 89%;
-  
-}
-
-.Proj3, .Proj4{
-width:420px;
-border-radius:15px;
-overflow:hidden;
-}
-
-.Proj3 img, .Proj4 img{
-width:100%;
-display:block;
-}
-
-.Proj1, .Proj2, .Proj3, .Proj4{
-width:420px;
-border-radius:15px;
-overflow:hidden;
-}
-
-.Proj1 img, .Proj2 img, .Proj3 img, .Proj4 img{
-width:100%;
-display:block;
+.project-group h2{
+  font-size:50px;
 }
 
 /* ACHIEVEMENTS */
