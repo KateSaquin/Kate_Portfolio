@@ -205,33 +205,30 @@ padding:80px 0;
 font-family:'Courier New', Courier, monospace;
 font-size:55px;
 margin-left:40px;
-margin-bottom:40px;
+margin-bottom:60px;
+}
+
+.project-block{
+margin-bottom:80px;
 }
 
 .projects-grid{
 display:flex;
-gap:40px;
 justify-content:center;
+gap:40px;
 flex-wrap:wrap;
 margin-bottom:20px;
 }
 
-.Proj1, .Proj2, .Proj3, .Proj4{
+.projects-grid img{
 width:420px;
 border-radius:15px;
-overflow:hidden;
-}
-
-.Proj1 img, .Proj2 img, .Proj3 img, .Proj4 img{
-width:100%;
 display:block;
 }
 
-.prod h2{
+.project-name{
 font-size:50px;
 text-align:center;
-margin-top:20px;
-margin-bottom:50px;
 font-family:'Courier New', Courier, monospace;
 }
 
